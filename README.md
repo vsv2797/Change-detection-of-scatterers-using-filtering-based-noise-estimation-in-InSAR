@@ -1,12 +1,12 @@
 # Change-detection-of-scatterers-using-filtering-based-temporal-noise-estimation-in-InSAR
 
-[span_8](start_span)This repository contains the source code for the Master's Thesis, "Change Detection in Multitemporal InSAR"[span_8](end_span)[span_9](start_span), submitted to the Gottfried Wilhelm Leibniz Universität Hannover[span_9](end_span).
+This repository contains the source code for the Master's Thesis, "Change Detection in Multitemporal InSAR", submitted to the Gottfried Wilhelm Leibniz Universität Hannover.
 
-[span_10](start_span)The project introduces and evaluates a model-independent framework for coherent change detection in InSAR time series, with a special focus on **Temporary Coherent Scatterers (TCS)**[span_10](end_span).
+The project introduces and evaluates a model-independent framework for coherent change detection in InSAR time series, with a special focus on **Temporary Coherent Scatterers (TCS)
 
 ## 📜 Abstract
 
-[span_11](start_span)Reliable detection of structural change is crucial for infrastructure monitoring and hazard detection[span_11](end_span). [span_12](start_span)This thesis investigates coherent change detection in multitemporal InSAR time series, focusing on TCS—scatterers that maintain coherence for only part of the observation period[span_12](end_span). [span_13](start_span)While traditional methods depend on displacement-based phase models (e.g., linear or polynomial fitting), they often fail in real-world scenarios with nonlinear deformation or abrupt events[span_13](end_span).
+Reliable detection of structural change is crucial for infrastructure monitoring and hazard detection. This thesis investigates coherent change detection in multitemporal InSAR time series, focusing on TCS—scatterers that maintain coherence for only part of the observation period[span_12](end_span). [span_13](start_span)While traditional methods depend on displacement-based phase models (e.g., linear or polynomial fitting), they often fail in real-world scenarios with nonlinear deformation or abrupt events[span_13](end_span).
 
 [span_14](start_span)In response, this work introduces a **model-independent framework** that leverages adaptive time-series filtering to directly estimate phase noise from arc phase time series[span_14](end_span). [span_15](start_span)By applying a **Likelihood Ratio Test (LRT)** to the filtered residuals, the method identifies change points without relying on deformation models[span_15](end_span). [span_16](start_span)The thesis provides a systematic comparison of this filtering-based approach against traditional model-based and spatial phase noise estimation methods[span_16](end_span).
 
