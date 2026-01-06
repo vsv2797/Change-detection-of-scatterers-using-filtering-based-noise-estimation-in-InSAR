@@ -1,0 +1,37 @@
+{
+    "general": {
+        "input_path": "data/inputs/",
+        "output_path": "data/outputs_tcs/Change_detection/test_1/",
+        "mask_file": "mask.h5",
+        "num_cores": 4
+    },
+    "amplitude": {
+        "run": false,
+        "significance_level": 0.0001
+    },
+    "coherence_matrix": {
+        "run": false,
+        "model_coherence": 0.5,
+        "window_size": 9
+    },
+    "spatial_noise_estimation": {
+        "run": false,
+        "window_size": 9,
+        "num_link": 5
+    },
+    "temporal_noise_estimation": {
+        "run": true,
+        "adi_p1": 0.3,
+        "adi_tcs": 0.4,
+        "num_nearest_neighbours": 5,
+        "velocity_bound": 0.15,
+        "dem_error_bound": 100.0,
+        "num_optimization_samples": 100
+    },
+    "lifetime": {
+        "run": true,
+        "change_map_file": "data/outputs_tcs/Change_detection/6Tne/change_map_temporal_noise_estimation.h5",
+        "window_size": 9,
+        "num_link": 5
+    }
+}
